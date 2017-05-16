@@ -1,2 +1,2 @@
-# Awesome_Machine_Learning
+# Awesome Machine Learning
 Machine Learning Notes
