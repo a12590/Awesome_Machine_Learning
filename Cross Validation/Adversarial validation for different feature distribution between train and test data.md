@@ -15,4 +15,8 @@ Then we’ll **see which training examples are misclassified as test and use the
 　　To be more precise, we’ll choose a number of misclassified examples that the model was most certain about. It means that 
 they look like test examples but in reality are training examples.</br>
 
+1. Train a classifier to identify whether data comes from the train or test set.
+2. Sort the training data by it’s probability of being in the test set.
+3. Select the training data most similar to the test data as your validation set.
+
 原文链接：[Adversarial validation](http://fastml.com/adversarial-validation-part-two/)
